@@ -4,4 +4,47 @@
   background: #FFFFFF;
   box-shadow: 0px 2px 4px rgba(25, 38, 73, 0.08), -2px -2px 4px #FFFFFF, inset 1px 1px 5px rgba(24, 38, 72, 0.13), inset -2px -2px 5px #FFFFFF;
   border-radius: 26px;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.card__category {
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #A9AEE5;
+    padding: 0;
+    margin: 0;
+}
+
+.card__image {
+
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 186.5%;
+  color: #1A1F96;
+}
+
+.card__description {
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 151%;
+  color: rgba(26, 31, 150, 0.6);
+}
+
+.card__price-row {
+
+}
+
+.card__price {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1A1F96;
 }
