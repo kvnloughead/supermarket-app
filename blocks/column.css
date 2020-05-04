@@ -1,8 +1,0 @@
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.column:first-of-type {
-  margin-right: 15px;
-}
