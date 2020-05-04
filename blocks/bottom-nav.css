@@ -1,45 +1,45 @@
 .bottom-nav {
-	padding: 25px 30px;
-	background-color: #ffffff;
-	background-image: url("../images/Menu\ bar.svg");
-	background-size: cover;
+  padding: 25px 30px;
+  background-color: #ffffff;
+  background-image: url('../images/Menu\ bar.svg');
+  background-size: cover;
 }
 .bottom-nav__list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
-	grid-gap: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  grid-gap: 40px;
 }
 
 .bottom-nav__button {
-	background-color: #ffffff;
-	border: none;
-	background-size: cover;
-	width: 24px;
-	height: 24px;
+  background-color: #ffffff;
+  border: none;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
 }
 
 .bottom-nav__button_type_menu {
-	background-image: url("../images/Menu\ 1.svg");
+  background-image: url('../images/Menu\ 1.svg');
 }
 
 .bottom-nav__button_type_tag {
-	background-image: url("../images/tag.svg");
+  background-image: url('../images/tag.svg');
 }
 
 .bottom-nav__button_type_cart {
-	background-image: url("../images/cart.svg");
-	position: relative;
+  background-image: url('../images/cart.svg');
+  position: relative;
 }
 
 .bottom-nav__button_type_settings {
-	background-image: url(../images/settings.svg);
+  background-image: url('../images/settings.svg');
 }
 
 .bottom-nav__cart-decor {
-	position: absolute;
-	top: -4px;
-	right: -6px;
+  position: absolute;
+  top: -4px;
+  right: -6px;
 }
