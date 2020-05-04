@@ -1,11 +1,8 @@
 .page {
-<<<<<<< HEAD
   font-family: Inter;
   font-style: normal;
   background-color: #F2F7FD;
   width: 100%;
-=======
   max-width: 375px;
   background-color: #F2F7FD;
->>>>>>> d7423fe52072de670e06dea33a4683807374feb9
 }
