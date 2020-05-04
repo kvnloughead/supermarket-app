@@ -1,7 +1,10 @@
 .bottom-nav {
-  padding: 25px 30px;
   background-color: #ffffff;
   background-image: url('../images/Menu\ bar.svg');
+  border-radius: 36px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-size: cover;
 }
 .bottom-nav__list {
@@ -9,10 +12,16 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
-  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.bottom-nav__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+
+}
 .bottom-nav__button {
   background-color: #ffffff;
   border: none;
