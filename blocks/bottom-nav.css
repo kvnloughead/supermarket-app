@@ -1,0 +1,54 @@
+.bottom-nav {
+  background-image: url(../images/Menu\ bar.svg);
+  border-radius: 0 0 36px 36px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-size: cover;
+  background-position: 0 -6px;
+}
+.bottom-nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bottom-nav__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+
+}
+.bottom-nav__button {
+  background-color: #ffffff;
+  border: none;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-nav__button_type_menu {
+  background-image: url('../images/Menu\ 1.svg');
+}
+
+.bottom-nav__button_type_tag {
+  background-image: url('../images/tag.svg');
+}
+
+.bottom-nav__button_type_cart {
+  background-image: url('../images/cart.svg');
+  position: relative;
+}
+
+.bottom-nav__button_type_settings {
+  background-image: url('../images/settings.svg');
+}
+
+.bottom-nav__cart-decor {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+}

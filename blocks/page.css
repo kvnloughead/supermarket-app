@@ -4,5 +4,7 @@
   background-color: #F2F7FD;
   width: 100%;
   max-width: 375px;
-  background-color: #F2F7FD;
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
 }
