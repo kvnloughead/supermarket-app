@@ -1,2 +1,10 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/inter.css');
+@import url('page.css');
+@import url('header.css');
+@import url('columns.css');
+@import url('column.css');
+@import url('card.css');
 @import url('page.css');
 @import url('nav.css');
+@import url('card-sale.css');

@@ -1,6 +1,9 @@
 .page {
-  max-width: 375px;
+  font-family: Inter;
+  font-style: normal;
   background-color: #F2F7FD;
+  width: 100%;
+  max-width: 375px;
   box-sizing: border-box;
   margin: 0;
   position: relative;
