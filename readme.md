@@ -4,4 +4,4 @@ A mobile only supermarket app in html and css.
 
 ### Authors
 
-Yuliya Khilko and Kevin Loughead. 
+Yuliya Khilko and Kevin Loughead.
