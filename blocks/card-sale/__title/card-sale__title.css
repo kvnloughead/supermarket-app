@@ -1,0 +1,9 @@
+.card-sale__title {
+  font-size: 12px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.61);
+}
