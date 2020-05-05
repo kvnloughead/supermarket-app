@@ -1,0 +1,9 @@
+.item__title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #ff7c63;
+	padding-top: 40px;
+	padding-bottom: 31px;
+	margin: 0;
+}
