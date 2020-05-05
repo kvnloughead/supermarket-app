@@ -1,9 +1,9 @@
 .item__button_type_add {
-	background-image: url("../../../../images/Active\ Middle\ Button\ png.png");
-	width: 70px;
-	height: 70px;
-	margin: auto;
-	z-index: 2;
-	position: relative;
-	top: -8px;
+  background-image: url('../../../../images/Active\ Middle\ Button\ png.png');
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+  top: -8px;
 }
