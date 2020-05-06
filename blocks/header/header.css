@@ -1,7 +1,0 @@
-@import url('./__category/header__category.css');
-@import url('./__category/_active/header__category_active.css');
-@import url('./__category-list/header__category-list.css');
-
-.header {
-  width: 100%;
-}
