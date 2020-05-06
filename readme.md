@@ -5,4 +5,3 @@ A mobile only supermarket app in html and css, built from these [figma specs](ht
 ## Authors
 
 Yuliya Khilko and Kevin Loughead. 
-
