@@ -1,0 +1,19 @@
+@import url('./__button/bottom-nav__button.css');
+@import url('./__button/_type/bottom-nav__button_type_cart.css');
+@import url('./__button/_type/bottom-nav__button_type_menu.css');
+@import url('./__button/_type/bottom-nav__button_type_settings.css');
+@import url('./__button/_type/bottom-nav__button_type_tag.css');
+@import url('./__cart-decor/bottom-nav__cart-decor.css');
+@import url('./__list/bottom-nav__list.css');
+@import url('./__list-item/bottom-nav__list-item.css');
+
+.bottom-nav {
+  background-color: #ffffff;
+  background-image: url('../../images/Menu\ bar.svg');
+  border-radius: 36px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-size: cover;
+  background-position: 0 -6px;
+}

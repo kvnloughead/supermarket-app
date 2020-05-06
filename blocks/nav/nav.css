@@ -1,0 +1,9 @@
+.nav {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 34px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
