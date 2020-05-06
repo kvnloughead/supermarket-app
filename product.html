@@ -1,68 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="blocks/product/product.css" />
-		<title>Product</title>
-	</head>
-	<body class="page">
-		<header>
-			<nav>
-				<ul class="nav">
-					<li><img src="images/arrow.svg" alt="go back icon" /></li>
-					<li><img src="images/star.svg" alt="star-icon" /></li>
-				</ul>
-			</nav>
-		</header>
-		<main class="content">
-			<img class="image" src="images/macaroon-product.png" />
-			<div class="item">
-				<h2 class="item__title">Pink Macaroon</h2>
-				<div class="item__price-row">
-					<div class="item__buttons">
-						<button class="item__button item__button_type_minus" type="button"> 
-						</button>
-						<p class="item__quantity">1</p>
-						<button class="item__button item__button_type_plus" type="button">
-						</button>
-					</div>
-					<p class="item__price">$10.50</p>
-				</div>
-				<p class="item__description">
-					A macaroon is a small cake or cookie, typically made from ground
-					almonds, coconut or other nuts with sugar and sometimes flavorings,
-					food coloring, glace cherries, jam or a chocolate coating – or a
-					combination of these or other ingredients
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blocks/product/product.css" />
+    <title>Product</title>
+  </head>
+  <body class="page">
+    <header>
+      <nav>
+        <ul class="nav">
+          <li>
+            <a href="./index.html"
+              ><img src="images/arrow.svg" alt="go back icon"></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/star.svg" alt="star-icon"></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <img class="image" src="images/macaroon-product.png">
+      <div class="item">
+        <h2 class="item__title">Pink Macaroon</h2>
+        <div class="item__price-row">
+          <div class="item__buttons">
+            <button
+              class="item__button item__button_type_minus"
+              type="button"
+            ></button>
+            <p class="item__quantity">1</p>
+            <button
+              class="item__button item__button_type_plus"
+              type="button"
+            ></button>
+          </div>
+          <p class="item__price">$10.50</p>
+        </div>
+        <p class="item__description">
+          A macaroon is a small cake or cookie, typically made from ground
+          almonds, coconut or other nuts with sugar and sometimes flavorings,
+          food coloring, glace cherries, jam or a chocolate coating – or a
+          combination of these or other ingredients
         </p>
-        <button type="button" class="item__button item__button_type_add"></button>
-			</div>
-		</main>
-		<nav class="bottom-nav">
-			<ul class="bottom-nav__list">
-				<li class="bottom-nav__list-item">
-					<button
-						class="bottom-nav__button bottom-nav__button_type_menu" type="button"
-					></button>
-				</li>
-				<li class="bottom-nav__list-item">
-					<button
-						class="bottom-nav__button bottom-nav__button_type_tag" type="button"
-					></button>
+        <button
+          type="button"
+          class="item__button item__button_type_add"
+        ></button>
+      </div>
+    </main>
+    <nav class="bottom-nav">
+      <ul class="bottom-nav__list">
+        <li class="bottom-nav__list-item">
+          <button
+            class="bottom-nav__button bottom-nav__button_type_menu"
+            type="button"
+          ></button>
         </li>
-        <li>
-				</li>
-				<li class="bottom-nav__list-item">
-					<button
-						class="bottom-nav__button bottom-nav__button_type_cart" type="button"
-					><img src="images/Ellipse 11.svg" alt="dot" class="bottom-nav__cart-decor"></button>
-				</li>
-				<li class="bottom-nav__list-item">
-					<button
-						class="bottom-nav__button bottom-nav__button_type_settings" type="button"
-					></button>
-				</li>
-			</ul>
-		</nav>
-	</body>
+        <li class="bottom-nav__list-item">
+          <button
+            class="bottom-nav__button bottom-nav__button_type_tag"
+            type="button"
+          ></button>
+        </li>
+        <li></li>
+        <li class="bottom-nav__list-item">
+          <button
+            class="bottom-nav__button bottom-nav__button_type_cart"
+            type="button"
+          >
+            <img
+              src="images/Ellipse 11.svg"
+              alt="dot"
+              class="bottom-nav__cart-decor"
+            >
+          </button>
+        </li>
+        <li class="bottom-nav__list-item">
+          <button
+            class="bottom-nav__button bottom-nav__button_type_settings"
+            type="button"
+          ></button>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
