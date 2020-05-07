@@ -1,0 +1,24 @@
+@import url('./__caption/card__caption.css');
+@import url('./__description/card__description.css');
+@import url('./__ellipse/card__ellipse.css');
+@import url('./__figure/card__figure.css');
+@import url('./__image/card__image.css');
+@import url('./__price-row/card__price-row.css');
+@import url('./__price/card__price.css');
+@import url('./__title/card__title.css');
+@import url('./__title/_text/card__title_text_small.css');
+
+.card {
+  width: 160px;
+  height: 242px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(25, 38, 73, 0.08), -2px -2px 4px #ffffff,
+    inset 1px 1px 5px rgba(24, 38, 72, 0.13), inset -2px -2px 5px #ffffff;
+  border-radius: 26px;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}

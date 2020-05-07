@@ -1,0 +1,5 @@
+.header__category_active {
+  color: #ff7d64;
+  text-decoration: underline;
+  font-weight: bold;
+}
